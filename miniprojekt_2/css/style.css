@@ -1,0 +1,70 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+html, body, .background-image {
+  height: 97.9%;
+}
+
+.background-image{
+  background-image: url("../img/pizza.jpg");
+  background-repeat: none;
+  background-size: cover;
+  background-position: fixed;
+}
+
+.menu{
+  position: absolute;
+  top:50%;
+  right:40%;
+  padding: 2rem 6rem;
+  border-radius:1rem;
+  border:1px;
+  background-color:#F5F5DC;
+}
+
+.menu-text{
+  text-decoration: none;
+  color:black;
+}
+
+.food-container{
+  display:flex;
+  flex-flow:row wrap;
+  background-color:#292929;
+}
+
+.food{
+  background-color:#F5F5DC;
+  height:10rem;
+  margin:2rem;
+  flex-basis:29.1%;
+  display:column;
+  padding-left:15px;
+  border-radius:10px;
+  font-family:'Times New Roman';
+}
+
+.name-of-pizza{
+  font-size:20px;
+  margin-bottom:0;
+  text-align:center;
+}
+
+.flexed{
+  display:flex;
+}
+
+.price{
+  margin-right:10%;
+}
+
+footer{
+  color:white;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height:6rem;
+}
