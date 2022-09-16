@@ -6,6 +6,7 @@
 
 html, body, .background-image {
   height: 97.9%;
+  background-color: black;
 }
 
 .background-image{
